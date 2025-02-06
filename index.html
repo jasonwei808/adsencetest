@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AdSense 测试页面</title>
+    <link rel="stylesheet" href="styles.css">
+    
+    <!-- Google AdSense 代码 -->
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3940256099942544" crossorigin="anonymous"></script>
+    <!-- Google AdSense 测试代码 -->
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <script>
+     window.adsbygoogle = window.adsbygoogle || [];
+     adsbygoogle.push({
+       google_ad_client: "ca-pub-3940256099942544",  // 测试用的发布商ID
+       enable_page_level_ads: true
+     });
+    </script>
+</head>
+<body>
+    <header>
+        <h1>欢迎来到测试网站</h1>
+    </header>
+
+    <main>
+        <article>
+            <h2>主要内容</h2>
+            <p>这是网站的主要内容区域。在实际使用时，您应该在这里放置真实的内容。</p>
+        </article>
+
+        <!-- 测试广告单元 -->
+        <div class="ad-container" style="border: 2px dashed red; padding: 20px; min-height: 100px;">
+            <p style="color: #666;">测试广告位置</p>
+            <!-- 测试广告代码 -->
+            <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+            <!-- 测试横幅广告 -->
+            <ins class="adsbygoogle"
+                 style="display:inline-block;width:728px;height:90px"
+                 data-ad-client="ca-pub-3940256099942544"
+                 data-ad-slot="6978759866"></ins>
+            <script>
+                 (adsbygoogle = window.adsbygoogle || []).push({});
+            </script>
+        </div>
+
+        <!-- 方块广告 -->
+        <div class="ad-container" style="border: 2px dashed blue; padding: 20px; min-height: 250px;">
+            <p style="color: #666;">方块广告位置</p>
+            <ins class="adsbygoogle"
+                 style="display:block"
+                 data-ad-client="ca-pub-3940256099942544"
+                 data-ad-slot="9393252276"
+                 data-ad-format="rectangle"
+                 data-full-width-responsive="false"></ins>
+            <script>
+                 (adsbygoogle = window.adsbygoogle || []).push({});
+            </script>
+        </div>
+
+        <article>
+            <h2>更多内容</h2>
+            <p>这是更多的内容区域，用于测试广告的展示效果。</p>
+        </article>
+    </main>
+
+    <footer>
+        <p>© 2024 测试网站</p>
+    </footer>
+</body>
+</html> 
